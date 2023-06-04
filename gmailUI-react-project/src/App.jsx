@@ -1,11 +1,13 @@
 import './App.css';
-import Navigation from './Navigation.jsx';
+import Navigation from './components/Navigation';
+import SidePane from './components/SidePane';
 
 function App() {
 
   return (
     <>
       <Navigation />
+      <SidePane />
     </>
   )
 }
