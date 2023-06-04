@@ -1,0 +1,60 @@
+.sidePane {
+  width: 19vw;
+  height: 100vh;
+  left: 0px;
+}
+.composebtn {
+    font-weight: 500;
+  width: 140px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #a6deff;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  margin: 0px 0px 20px 10px;
+}
+.composebtn:hover {
+  filter: brightness(95%);
+}
+.sidelinks {
+  width: 90%;
+}
+.sidelinks li {
+  height: 30px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px 0px 10px;
+}
+.sidelink-item {
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+li{
+  align-items: center;
+    color: rgb(60, 60, 60);
+}
+li:focus{
+    color: rgb(28, 28, 84);
+}
+li:nth-child(1) {
+    color: rgb(28, 28, 84);
+  background-color: rgb(179, 203, 245);
+  border-radius: 0px 20px 20px 0px;
+}
+li:nth-child(5){
+    color: black;
+    font-weight: 600;
+}
+.sidelink-labels{
+    color: rgb(60, 60, 60);
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 0px 36px 0px 30px;
+}
