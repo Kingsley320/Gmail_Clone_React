@@ -1,0 +1,79 @@
+.controls{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.main{
+    width: 76%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.left{
+    display: flex;
+    gap: 30px;
+}
+.left svg:nth-child(2), .right svg:last-child{
+    width: 10px;
+    margin: 0;
+    padding: 0;
+}
+.left svg:nth-child(2){
+    margin-left: -25px;
+}
+.right{
+    display: flex;
+    gap: 20px;
+}
+.right:nth-child(1){
+    color: gray;
+}
+.right svg:nth-child(5){
+    margin-left: -15px;
+}
+.right:nth-child(2){
+    font-weight: 600;
+    color: gray;
+}
+
+
+.section-headers{
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+    border-bottom: 1px solid rgb(229, 229, 229);
+}
+.section-headers .cont{
+    color: rgb(58, 58, 58);
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+.cont svg{
+    margin-right: 20px;
+}
+.cont:nth-child(1){
+    padding: 0px 100px 0px 0px;
+    color: blue;
+    border-bottom: 3px solid blue;
+}
+.cont:nth-child(2) small:nth-child(1){
+    color: white;
+    background-color: green;
+    padding: 0px 3px;
+    border-radius: 30px;
+}
+.cont:nth-child(3) small:nth-child(1){
+    color: white;
+    background-color: blue;
+    padding: 0px 3px;
+    border-radius: 30px;
+}
+
+.mega_container{
+    padding-right: 30px;
+    height: 70vh;
+    overflow-y: scroll;
+}

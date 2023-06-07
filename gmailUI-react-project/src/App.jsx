@@ -1,13 +1,13 @@
 import './App.css';
 import Navigation from './components/Navigation';
-import SidePane from './components/SidePane';
+import Content from './components/Content';
 
 function App() {
 
   return (
     <>
       <Navigation />
-      <SidePane />
+      <Content />
     </>
   )
 }
