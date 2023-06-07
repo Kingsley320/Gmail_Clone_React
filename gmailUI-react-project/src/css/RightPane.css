@@ -22,18 +22,18 @@
 }
 
 .right-pane{
-    margin-right: 10px;
+    margin: auto 10px;
+    text-align: center;
     height: 85%;
     width: 7%;
     display: flex;
     justify-content: center;
-    /* background-color: yellowgreen; */
-    text-align: center;
     right: 0;
     position: relative;
 }
 .arrow{
-    display: block;
+    /* text-align: center; */
+    /* display: block; */
     position: absolute;
     bottom: 0;
     color: rgb(202, 202, 202);
