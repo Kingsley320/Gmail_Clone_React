@@ -1,0 +1,56 @@
+.calendar{
+    width: 20px;
+    display: block;
+    margin-top: 20px;
+}
+.keep{
+    width: 20px;
+    display: block;
+    margin-top: 40px;
+}
+.task{
+    width: 20px;
+    display: block;
+    margin-top: 40px;
+}
+.contact{
+    width: 20px;
+    display: block;
+    margin-top: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(173, 173, 173);
+}
+
+.right-pane{
+    margin-right: 10px;
+    height: 85%;
+    width: 7%;
+    display: flex;
+    justify-content: center;
+    /* background-color: yellowgreen; */
+    text-align: center;
+    right: 0;
+    position: relative;
+}
+.arrow{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    color: rgb(202, 202, 202);
+    height: auto;
+    width: 35px;
+}
+
+.add{
+    color: black;
+    margin-top: 30px;
+    height: auto;
+    width: 20px;
+    font-weight: 600;
+}
+
+.position-pane{
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
