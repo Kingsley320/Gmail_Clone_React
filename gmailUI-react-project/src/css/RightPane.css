@@ -22,19 +22,20 @@
 }
 
 .right-pane{
-    margin: auto 10px;
     text-align: center;
+    margin: auto 20px;
     height: 85%;
-    width: 7%;
+    min-width: 7%;
     display: flex;
     justify-content: center;
     right: 0;
     position: relative;
 }
-.arrow{
-    /* text-align: center; */
-    /* display: block; */
+.arrow{ 
+    margin: auto auto;
+    padding-right: 5px;
     position: absolute;
+    left: auto;
     bottom: 0;
     color: rgb(202, 202, 202);
     height: auto;

@@ -37,15 +37,13 @@
     font-weight: 600;
     color: gray;
 }
-
-
-.section-headers{
+.section_headers{
     display: flex;
     justify-content: left;
     gap: 50px;
     border-bottom: 1px solid rgb(229, 229, 229);
 }
-.section-headers .cont{
+.section_headers .cont{
     color: rgb(58, 58, 58);
     display: flex;
     text-align: left;
@@ -75,5 +73,7 @@
 .mega_container{
     padding-right: 30px;
     height: 70vh;
+    width: auto;
     overflow-y: scroll;
+    overflow-x: scroll;
 }

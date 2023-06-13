@@ -3,8 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-
 .mail{
     display: flex;
     justify-content: space-between;
@@ -13,6 +11,7 @@
     padding-bottom: 10px;
     font-size: 19px;
     font-weight: 500;
+    min-width: 700px;
 }
 .mail div{
     display: flex;
@@ -24,7 +23,6 @@
 }
 .mail .child2, .mail .child3{
     color: rgb(159, 159, 159) !important;
-    /* font-weight: bold; */
 }
 .day{
     font-size: 15px !important;
